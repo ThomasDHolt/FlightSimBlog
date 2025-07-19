@@ -2,8 +2,6 @@ import { PostCard } from "./PostCard";
 import Link from "next/link";
 
 export function PostsCollection({posts}) {
-    {console.log(posts)}
-
     return (
         <div>
             <div className="flex flex-row justify-center">
